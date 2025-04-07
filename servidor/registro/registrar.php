@@ -4,7 +4,6 @@
 
   $usuario = $_POST['usuario'];
   $password = password_hash($_POST['password'],PASSWORD_DEFAULT);
-  //$password = $_POST['password'];
 
   $Auth = new Auth();
 
